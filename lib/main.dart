@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) { 
     return MaterialApp(
       title: 'QR & Codigo de Barras',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.green),
        debugShowCheckedModeBanner: false, // Agrega esta línea para desactivar el banner de depuración
 
       routes: {

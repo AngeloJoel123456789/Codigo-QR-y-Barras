@@ -7,7 +7,7 @@ class BarcodeScanPage extends StatefulWidget {
 }
 
 class _BarcodeScanPageState extends State<BarcodeScanPage> {
-  String scannedBarcode = 'Scanned Barcode:';
+  String scannedBarcode = 'Scanear codigo de barras:';
 
   Future<void> _scanBarcode() async {
     String barcode = await FlutterBarcodeScanner.scanBarcode(

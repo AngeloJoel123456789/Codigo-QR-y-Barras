@@ -8,13 +8,13 @@ class HomePage extends StatelessWidget {
       'icon': Icons.qr_code,
     },
     {
-      'title': 'Scan Barcode',
+      'title': 'SCANEAR CODIGO DE BARRAS',
       'route': '/barcode_scan',
       'icon': Icons.qr_code,
      
     },
     {
-      'title': 'Generate QR Code',
+      'title': 'Generar codigo QR',
       'route': '/qr_generator',
       'icon': Icons.qr_code_scanner,
     },
@@ -22,7 +22,8 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return Scaffold( 
+      backgroundColor: Colors.green,
       appBar: AppBar(
         title: Text('QR & CODIGO DE BARRAS'),
       ),
